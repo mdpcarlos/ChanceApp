@@ -35,60 +35,32 @@
 
 <body>
 
-    <div class="cloud floating">
-        <img src="assets/img/cloud.png" alt="Scoop Themes">
-    </div>
-
-    <div class="cloud pos1 fliped floating">
-        <img src="assets/img/cloud.png" alt="Scoop Themes">
-    </div>
-
-    <div class="cloud pos2 floating">
-        <img src="assets/img/cloud.png" alt="Scoop Themes">
-    </div>
-
-    <div class="cloud pos3 fliped floating">
-        <img src="assets/img/cloud.png" alt="Scoop Themes">
-    </div>
 
 
     <div id="wrapper">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-12">
-                    <img src="assets/img/logo.png" alt="Scoop Themes Logo">
+					
+					<img src="assets/img/logo.png" alt="Chance! Logo">
                     <br/>
-                    <br/>
-                    <h2 class="subtitle">We're working hard to launch our website and we'll be ready very soon</h2>
-                    <br/>
-             
-                    <form class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
+                    <h1 class="subtitle">Estamos trabalhando duro para trazer a chance perfeita para você o mais rápido possível!</h1>
+					<form class="form-inline validate signup" action="http://scoopthemes.us8.list-manage.com/subscribe/post-json?u=c535e62cabdc2bfeb87bff6de&amp;id=d969b07f82&c=?" method="get" role="form">
                         <div class="form-group">
-                            <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Enter your email address">
+                            <input type="email" class="form-control" name="EMAIL" id="exampleInputEmail1" placeholder="Digite seu e-mail">
                         </div>
-                        <input type="submit" name="subscribe" value="Get notified!" class="btn btn-theme">
+                        <input type="submit" name="subscribe" value="Mantenha-me informado!" class="btn btn-theme">
                     </form>
-                    <br/>
-                </div>
-                <div class="col-sm-12 align-center">
+					<br/>
                     <ul class="social-network social-circle">
-                        <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+                        <li><a href="http://www.facebook.com/ChanceAppWeb" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
                         </li>
-                        <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#" class="icoGit" title="Github"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+                        <li><a href="https://br.linkedin.com/in/michel-carlos-61a14865" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-6 col-lg-offset-3">
-                    <p class="copyright">Copyright &copy; 2014 - <a href="http://scoopthemes.com">ScoopThemes.com</a>
-                    </p>
-                </div>
-            </div>
+           
         </div>
     </div>
 
@@ -129,10 +101,10 @@ function register($form) {
         error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
         success     : function(data) {
             if (data.result != "success") {
-                appendResult('Wrong Email Or You Are Already Registered, Try Again', 'error', 'exclamation');
+                appendResult('E-mail ERRADO ou você ja está registrado, Tente Novamente', 'error', 'exclamation');
             } else {
                 // It worked, carry on...
-                appendResult('Successful, Check Your Email For Confirmation ', 'success', 'check');
+                appendResult('Obrigado! Cheque seu e-mail para confirmação! :D ', 'success', 'check');
             }
         }
     });

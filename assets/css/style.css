@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Lato:400,300,700,900');
 
 body {
-	background: #6ac0bd;
+	background: #007f90;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -97,17 +97,17 @@ a:after {
 
 .btn-theme  {
   color: #fff;
-  background-color: #4F92AF;
-  border-color: #4F92AF;
+  background-color: #bc7555;
+  border-color: #bc7555;
 }
 .btn-theme:hover  {
   color: #fff;
-  background-color: #444;
-  border-color: #444;
+  background-color: #445;
+  border-color: #445;
 }
 form.signup input[type=email]  {
 	height: 42px;
-	width: 200px;
+	width: 400px;
 	border-radius: 0;
 	border: none;
 }
@@ -123,7 +123,6 @@ form.signup input.form-control:focus {
 
 #wrapper {
 	text-align: center;
-	background: url(../img/main-bg-compressor.jpg) no-repeat center top;
 	background-attachment: relative;
 	background-position: center center;
   box-sizing:border;
