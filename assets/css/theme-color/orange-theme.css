@@ -5,108 +5,108 @@ Author URI : http://www.markups.io/
 
 .menu-wrap li a:hover,
 .menu-wrap li a:focus {
-  color: #ff871c;
+  color: #f16d33;
 }
 
 .download-btn{
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .main-nav a:hover,
 .main-nav a:focus {
-  color: #ff871c;
+  color: #f16d33;
 }
 
 .main-nav a:active {
-  color: #ff871c;
+  color: #f16d33;
 }
 
 .title-area .title span{
-  color: #ff871c;
+  color: #f16d33;
 }
 
 .title-area .title::before {
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .features-list li:hover .features-content h4{
-  color: #ff871c;
+  color: #f16d33;
 }
 
 .features-list li:hover .fa{
-  background-color: #ff871c;  
+  background-color: #f16d33;  
 }
 
 .features-list i:hover{
-  background-color: #ff871c;
+  background-color: #f16d33;
   color: #fff;
 }
 
 .feature-price .single-plan-head{
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .single-plan-head p > span {
-  color: #ff871c; 
+  color: #f16d33; 
 }
 
 .single-plan-bottom .signup-btn {
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .screenshots-slide li a:hover{
-  border-color: #ff871c;  
+  border-color: #f16d33;  
 }
 
 .screenshots-slide .slick-dots li button:hover,
 .screenshots-slide .slick-dots li.slick-active button {
-  background-color: #ff871c;  
+  background-color: #f16d33;  
 }
 
 .single-download:hover,
 .single-download:focus{
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .testi-company{
-  color: #ff871c;  
+  color: #f16d33;  
 }
 
 .testi-text:before{  
-  color: #ff871c;
+  color: #f16d33;
 }
 
 .testimonial-slider .slick-dots li.slick-active {
-  background-color: #ff871c; 
+  background-color: #f16d33; 
 }
 
 .subcr-form i {
-  color: #ff871c;  
+  color: #f16d33;  
 }
 
 .subcr-form .subcr-btn {
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .contact-form .form-control:focus {
-  border-color: #ff871c;
+  border-color: #f16d33;
 }
 
 .send-btn:hover,
 .send-btn:focus{
-  background-color: #ff871c;
+  background-color: #f16d33;
 }
 
 .home-btn a:hover,
 .home-btn a:focus{
-  color: #ff871c; 
+  color: #f16d33; 
 }
 .blog-pagination > li > a:hover,
 .blog-pagination > li > span:hover,
 .blog-pagination > li > a:focus,
 .blog-pagination > li > span:focus{
-  background-color: #ff871c;  
-  border-color:#ff871c;
+  background-color: #f16d33;  
+  border-color:#f16d33;
 }
 
 
