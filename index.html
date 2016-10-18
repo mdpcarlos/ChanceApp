@@ -23,18 +23,6 @@
 		
 	<!-- Tracking script -->    
 	<script src="https://js.gleam.io/oi-4UyE90kb.js" async="async"></script>
-	
-	<!-- Hotjar Tracking Code for https://mdpcarlos.github.io/ChanceApp/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:312027,hjsv:5};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 
     <!-- Main Style -->
     <link href="style.css" rel="stylesheet">
@@ -72,12 +60,10 @@
         <li> <a href="#header"><i class="fa fa-home"></i><span>Home</span></a></li>
         <li><a href="#features"><i class="fa fa-server"></i><span>Qualidades</span></a></li>
         <li><a href="#howit-works"><i class="fa fa-hourglass"></i><span>Como Funciona</span></a></li>
-        <li><a href="#pricing-table"><i class="fa fa-usd"></i><span>Pricing</span></a></li>
         <li><a href="#screenshot"><i class="fa fa-image"></i><span>Telas do Aplicativo</span></a></li>
         <li><a href="#download-app"><i class="fa fa-download"></i><span>Plataformas</span></a></li>
-		<li><a href="#download-app"><i class="fa fa-download"></i><span>Plataformas</span></a></li>
-        <li><a href="#testimonial"><i class="fa fa-certificate"></i><span>Testimonials</span></a></li>
-        <li><a href="#contact"><i class="fa fa-envelope-o"></i><span>Contact</span></a></li>          
+        <li><a href="#subscribe"><i class="fa fa-certificate"></i><span>NewsLetter</span></a></li>
+        <li><a href="#contact"><i class="fa fa-envelope-o"></i><span>Contato</span></a></li>          
       </ul>      
     </nav>
   </div>  
@@ -270,7 +256,7 @@
         <div class="col-md-12">
           <div class="title-area wow fadeInUp">
             <h2 class="title">Imagens do <span>Aplicativo</span></h2>
-            <p>Um verdadeiro ensaio fotográfico! <br>Só de ver as fotos já conseguimos perceber como é simples! </p>
+            <p>Um verdadeiro ensaio fotográfico! <br> Com a beleza de quem veio mudar sua vida pra melhor. </p>
           </div>
         </div>
         <div class="col-md-12">
@@ -371,29 +357,7 @@
   <!-- End download app -->
 
   <!-- Start testimonial -->
-  <section id="testimonial">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="title-area wow fadeInLeft">
-            <h2 class="title">MEU <span>PIRU</span></h2>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div class="testimonial-slider">
-            <!-- single slide -->
-            <div class="testimonial-single-slide">               
-              <img class="testi-avatar" src="assets/images/testi1.jpg" alt="testimonial img">
-              <p class="testi-name">TESTE</p>
-              <p class="testi-company">Teste</p>
-              <p class="testi-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry ue ipsa quae ab illo inventore veritatis et quasi</p>
-            </div>            
-          </div>
-        </div>
-      </div>
-    </div>      
-  </section>
+  <!-- Here the code from template -->
   <!-- End testimonial -->
 
   <!-- Start subscribe -->
@@ -405,7 +369,7 @@
             <div class="title-area wow fadeInUp">
               <h2 class="title">Nosso <span>Newsletter</span></h2>
               <p>Se inscreva aqui em nosso NewsLetter, assim podemos mante-lo atualizado sobre o Chance!  <BR>
-			    (Essa lista receberá convites exclusivos para nossa fase de <b>testes</b>)   </p>
+			    (Essa lista receberá convites exclusivos para nossa <b>fase de testes</b>)   </p>
 				<a class="logo" href="javascript:void(0)"onclick="_app.popup('y3Dam')" ><img src="assets/images/NewsLetter.png" alt="Me inscrever!"></a>
 			  
             </div>
@@ -420,32 +384,38 @@
   <!-- Start contact -->
   <section id="contact">
     <div class="container">
-      <div class="row">
+	
+	<div class="row">
         <div class="col-md-12">
           <div class="title-area">
-              <h2 class="title">MANDE UM <span>SALVE</span></h2>
-              <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered</p>
+              <h2 class="title">ENTRE EM <span>CONTATO</span></h2>
+              <p>Tem alguma sugestão ou critica? Gostou tanto do Chance! que quer fazer parte do time? 
+			  <br> Não perca tempo, use nossa<a target="_blank" href="https://www.facebook.com/ChanceAppOnline/"> <b>Página no Facebook </b> </a>para entrar em contato! <br>  <br>
+			  Você também pode enviar uma mensagem utilizando o formulário abaixo ;)</p>
+			
           </div>
         </div>
         <div class="col-md-12">
           <div class="contact-area">
-            <form action="" class="contact-form">
+            <form action="https://formspree.io/michel_donizeti@hotmail.com" target="_blank" method="POST" class="contact-form">
               <div class="form-group">                  
-                <input type="text" class="form-control" placeholder="Your name">
+                <input name="name" type="text" class="form-control" placeholder="Seu Nome">
               </div>
               <div class="form-group">                  
-                <input type="email" class="form-control" placeholder="Email">
+                <input type="email" name="_replyto" class="form-control" placeholder="Email">
               </div>
               <div class="form-group">                  
-                <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                <textarea class="form-control" rows="3" name="message" placeholder="Mensagem"></textarea>
               </div>
               <div class="send-area">
-                <button type="submit" class="send-btn">Send Now</button>
+                <button type="submit" class="send-btn" value="Send">ENVIAR</button>
               </div>  
             </form>
           </div>
         </div>
+		
       </div>
+
     </div>
   </section>
   <!-- End contact -->
@@ -456,13 +426,11 @@
       <div class="row">
         <div class="col-md-12">
           <div class="footer-social">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-twitter"></i></a>
-            <a href="#"><i class="fa fa-google-plus"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/ChanceAppOnline/"><i class="fa fa-facebook"></i></a>
+            <a target="_blank"  href="https://br.linkedin.com/in/michel-carlos-61a14865"><i class="fa fa-linkedin"></i></a>
           </div>
           <div class="footer-text">
-            <p>Designed by <a href="http://www.markups.io/">MarkUps.io</a></p>
+            <h6> <p>Designed by <a href="http://www.markups.io/">MarkUps.io</a></p></h6>
           </div>
         </div>
       </div>
